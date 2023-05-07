@@ -42,6 +42,10 @@
       align-items: center;
     }
 
+    .love {
+      color: #ea80b0;
+    }
+
     .love_icon {
       width: 32px;
       height: 32px;
@@ -253,8 +257,8 @@
         }
         context.closePath();
         // create the fill
-        context.fillStyle = '#ff30c5';
-        // context.fillStyle = '#ea80b0';
+        // context.fillStyle = '#ff30c5';
+        context.fillStyle = '#ea80b0';
         context.fill();
         // create the image
         var image = new Image();
@@ -297,8 +301,10 @@
   </script>
   <div class="namebox">
     <div>
+      <!-- <span class="love">❤&nbsp;</span> -->
       敏
-      <img class="love_icon" src="./love.png" />
+      <span class="love">&nbsp;❤❤</span>
+      <!-- <img class="love_icon" src="./love.png" /> -->
     </div>
   </div>
 </body>
